@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projets — Portfolio</title>
+<meta name="description" content="Sélection de projets — engineering, produit et photographie." />
+<link rel="icon" type="image/png" href="logos/favicon.png" />
+<link rel="apple-touch-icon" href="logos/favicon.png" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="paper-grain">
+
+<div class="page-intro"><span>// loading /projets<span class="cursor">_</span></span></div>
+
+<header class="site-header">
+  <div class="inner">
+    <a href="index.html" class="brand" aria-label="Accueil">
+      <span class="brand-mark"><img src="logos/moi.jpg" alt="" /></span>
+      <span class="brand-text">Enzo Legore</span>
+    </a>
+    <nav class="nav-menu" aria-label="Navigation principale">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="projets.html" class="nav-link active">Projets</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section style="padding: 10rem 2rem 3rem">
+  <span class="label rise">[ /projets ]</span>
+  <h1 class="h-display-xl rise" style="--d:.1s; margin-top:1rem">Projets</h1>
+
+  <div class="filters rise" style="--d:.2s">
+    <button class="filter-btn active" data-filter="Tout">Tout</button>
+    <button class="filter-btn" data-filter="Engineering">Engineering</button>
+    <button class="filter-btn" data-filter="Open source">Open source</button>
+    <button class="filter-btn" data-filter="UI / Produit">UI / Produit</button>
+    <button class="filter-btn" data-filter="Photographie">Photographie</button>
+    <button class="filter-btn" data-filter="Voyage">Voyage</button>
+  </div>
+</section>
+
+<section class="projects-grid" style="padding: 0 2rem 8rem">
+
+  <article class="project-card hover-tilt reveal" data-cat="Engineering" data-year="2025" data-role="Developpement front-end" data-stack="HTML, CSS, JS" data-github="https://github.com/enzogoldenboy/notioncopy" data-description="A simplified Notion clone — block-based editor built in pure HTML / CSS / JS (zero frameworks, zero dependencies).">
+    <div class="img-box aspect-4-3"><img src="images/notion-1.png" alt="Notion Copy" /></div>
+    <div class="body"><div><p class="label">[ Engineering ]</p><h3>Notion Copy</h3><p class="sub">Highlights 2025</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="Photographie" data-year="2025" data-role="Photographie" data-stack="Lightroom, retouche couleur" data-description="Serie photo autour du mouvement et de la lumiere naturelle au Costa Rica. L'objectif etait de capturer une image vive, precise, avec une direction couleur chaleureuse.">
+    <div class="img-box aspect-4-3">images/hummingbird.png</div>
+    <div class="body"><div><p class="label">[ Photographie ]</p><h3>A venir</h3><p class="sub">Costa Rica, 2025</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="Open source" data-year="2025" data-role="Auteur" data-stack="TypeScript" data-description="Petite librairie TypeScript orientee simplicite, concue pour gerer un etat applicatif leger sans imposer une architecture lourde.">
+    <div class="img-box aspect-4-5">images/tiny-state.png</div>
+    <div class="body"><div><p class="label">[ Open source ]</p><h3>A venir</h3><p class="sub">TypeScript · 2k★</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="UI / Produit" data-year="2024" data-role="UI design & integration" data-stack="Figma, HTML, CSS" data-description="Creation d'une identite visuelle et d'un site vitrine pour un studio creatif, avec une direction sobre, editoriale et facile a maintenir.">
+    <div class="img-box aspect-4-5">images/maison-studio.png</div>
+    <div class="body"><div><p class="label">[ UI / Produit ]</p><h3>A venir</h3><p class="sub">Site & identité</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="Voyage" data-year="2025" data-role="Photo & narration" data-stack="Photo, editing" data-description="Carnet visuel construit comme une serie de fragments : paysages, details, lumiere d'ete et narration courte autour d'un voyage en Provence.">
+    <div class="img-box aspect-1-1">images/carnet-du-sud.png</div>
+    <div class="body"><div><p class="label">[ Voyage ]</p><h3>A venir</h3><p class="sub">Provence, été 25</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="Engineering" data-year="2024" data-role="Back-end / edge" data-stack="Cloudflare Workers, JS" data-description="Pipeline edge pour traiter des requetes rapidement au plus pres de l'utilisateur, avec une attention particuliere portee a la latence et a la fiabilite.">
+    <div class="img-box aspect-1-1">images/edge-pipeline.png</div>
+    <div class="body"><div><p class="label">[ Engineering ]</p><h3>A venir</h3><p class="sub">Cloudflare Workers</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="Photographie" data-year="2024" data-role="Direction photo" data-stack="Studio, retouche" data-description="Serie de portraits studio avec une lumiere controlee, un cadrage simple et une retouche discrete pour garder une presence naturelle.">
+    <div class="img-box aspect-4-3">images/studio.png</div>
+    <div class="body"><div><p class="label">[ Photographie ]</p><h3>A venir</h3><p class="sub">Portraits 2024</p></div><span class="arrow">↗</span></div>
+  </article>
+
+  <article class="project-card hover-tilt reveal" data-cat="UI / Produit" data-year="2024" data-role="Product design" data-stack="Dashboard, UI system" data-description="Refonte d'un outil interne pour rendre les donnees plus lisibles, accelerer les actions frequentes et clarifier les etats importants.">
+    <div class="img-box aspect-4-3">images/dash-v2.png</div>
+    <div class="body"><div><p class="label">[ UI / Produit ]</p><h3>A venir</h3><p class="sub">Internal tool</p></div><span class="arrow">↗</span></div>
+  </article>
+
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
